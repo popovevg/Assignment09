@@ -3,16 +3,41 @@ window.addEventListener('load', ()=> {
     let userName;
     let userDeposit;
     let userWithdrow;
+    let outPut = document.getElementById('output');
+
     let nameButton = document.getElementById('name');
     nameButton.addEventListener('click', ()=>{
         userName = window.prompt('Enter your name:');
     });
+
     let depositButton = document.getElementById('deposit');
     depositButton.addEventListener('click', ()=>{
         userDeposit = window.prompt('Enter your deposit amount:');
     });
+
     let withdrowButton = document.getElementById('withdrow');
     withdrowButton.addEventListener('click', ()=>{
         userWithdrow = window.prompt('Enter your withdrow amount:');
     });
 })
+
+function bankAccount(ownerName) {
+    let balance;
+    let owner = ownerName;
+    withdrawal: function (withdrawalAmount) {
+        "use strict";
+
+    },
+    deposit: function (depuserDepositositAmount) {
+        "use strict";
+
+    },
+    getBalance: function () {
+        "use strict";
+
+    },
+    getOwnerName: function () {
+        "use strict";
+
+    }
+}
