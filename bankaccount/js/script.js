@@ -21,23 +21,3 @@ window.addEventListener('load', ()=> {
     });
 })
 
-function bankAccount(ownerName) {
-    let balance;
-    let owner = ownerName;
-    withdrawal: function (withdrawalAmount) {
-        "use strict";
-
-    },
-    deposit: function (depuserDepositositAmount) {
-        "use strict";
-
-    },
-    getBalance: function () {
-        "use strict";
-
-    },
-    getOwnerName: function () {
-        "use strict";
-
-    }
-}
